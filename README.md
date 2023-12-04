@@ -16,6 +16,9 @@ cd LLM_chatapp
 pip install -r requirements.txt
 ```
 
+You can see a easy demo here:
+![Demo](assets/demo.gif)
+
 ## Usage
 Run the application with the following command, specifying the Hugging Face Hub model name:
 ```bash
