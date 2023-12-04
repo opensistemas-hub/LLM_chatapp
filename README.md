@@ -50,7 +50,7 @@ You can create your template for your own model following [this](https://hugging
 - **Falcon-180B Chat (tiiuae/falcon-180B-chat)**: A large-scale model with extensive knowledge. [Learn More](https://huggingface.co/tiiuae/falcon-180B-chat)
 - **Neural Chat 7b v3.1 (Intel/neural-chat-7b-v3-1)**: Incorporates advanced natural language understanding capabilities. [Learn More](https://huggingface.co/Intel/neural-chat-7b-v3-1)
 - **LightGPT (amazon/LightGPT)**: A lightweight model for efficient chatting. [Learn More](https://huggingface.co/amazon/LightGPT)
-* Any model in Hugging Face Hub with defined `chat_template`: [Here](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/blob/c1b0db933684edbfe29a06fa47eb19cc48025e93/tokenizer_config.json#L12) is an example for Llama2.
+- Any model in Hugging Face Hub with defined `chat_template`: [Here](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/blob/c1b0db933684edbfe29a06fa47eb19cc48025e93/tokenizer_config.json#L12) is an example for Llama2.
 
 Additionally, users can integrate any Hugging Face Hub model that has a defined `chat_template`. For guidance on creating a template for your own model, consult the [Hugging Face Chat Templating Documentation](https://huggingface.co/docs/transformers/chat_templating). If you create or improve a template, we encourage you to submit a Pull Request to the `chat_templates/templates.py` folder in our repository.
 
@@ -59,4 +59,4 @@ Additionally, users can integrate any Hugging Face Hub model that has a defined 
 
 OpenSistemas is a spanish company specializing in providing innovative technology solutions and services. We focus on areas such artificial intelligence, data science, data management, analytics, cloud computing and big data, aiming to enhance business efficiency and drive digital transformation for our clients.
 
-If you want to know more about us, don't forget to visit our [website](https://opensistemas.com
+If you want to know more about us, don't forget to visit our [website](https://opensistemas.com)
