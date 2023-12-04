@@ -1,0 +1,18 @@
+# Transformers ----------------------------------------
+transformers
+torch
+fairscale
+fire
+sentencepiece
+protobuf
+accelerate
+peft
+bitsandbytes
+trl
+
+# Other modules ----------------------------------------
+scipy
+
+# Chat interface ----------------------------------------
+gradio
+
