@@ -60,7 +60,7 @@ def get_response(message: str, history: list) -> str:
     generated_text = sequences[0]['generated_text']
     response = generated_text[len(query):]  
 
-    logging.info('Chatbot:', response.strip())
+    logging.info('Chatbot: ' + response.strip())
     return response.strip()
 
 
@@ -100,4 +100,6 @@ if __name__ == '__main__':
     # define pipeline for text generation
     gen = pipeline('text-generation', model=model, tokenizer=tokenizer)
     
-    gradio.ChatInterface(fn=get_response).launch(server_name='0.0.0.0', server_port = 5000, share = False)
+    gradio.ChatInterface(fn=get_response, 
+                         chatbot=gradio.Chatbot(height=600),
+                         ).launch(server_name='0.0.0.0', server_port = 5000, share = False)
