@@ -6,6 +6,7 @@ Run a Gradio chat interface with HuggingFace Hub model for conversational AI.
 Usage:
     $ python chat_interface.py --model_name "meta-llama/Llama-2-7b-chat-hf"    # Model name
                                             "openchat/openchat_3.5"
+                                            "stabilityai/stablelm-zephyr-3b"
                                             "Open-Orca/Mistral-7B-OpenOrca"
                                             "mistralai/Mistral-7B-Instruct-v0.1"
                                             "tiiuae/falcon-180B-chat"

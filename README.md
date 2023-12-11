@@ -45,6 +45,7 @@ You can create your template for your own model following [this](https://hugging
 
 - **Llama-2-7b Chat (meta-llama/Llama-2-7b-chat-hf)**: A robust model for diverse conversational contexts. [Learn More](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
 - **Openchat 3.5 (openchat/openchat_3.5)**: Designed for open-domain chatting. [Learn More](https://huggingface.co/openchat/openchat_3.5)
+- **Stablelm-zephyr-3b (stabilityai/stablelm-zephyr-3b)**: A "small" but powerful model deployable with just 2GB of VRAM created by StabilityAI. [Learn More](https://huggingface.co/stabilityai/stablelm-zephyr-3b)
 - **Mistral-7B OpenOrca (Open-Orca/Mistral-7B-OpenOrca)**: Optimized for interactive and engaging conversations. [Learn More](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
 - **Mistral-7B Instruct v0.1 (mistralai/Mistral-7B-Instruct-v0.1)**: Focuses on instruction-based responses. [Learn More](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
 - **Falcon-180B Chat (tiiuae/falcon-180B-chat)**: A large-scale model with extensive knowledge. [Learn More](https://huggingface.co/tiiuae/falcon-180B-chat)
