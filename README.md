@@ -22,7 +22,7 @@ You can see a easy demo here:
 ## Usage
 Run the application with the following command, specifying the Hugging Face Hub model name:
 ```bash
-python chat_interface.py --model-name "MODEL_NAME"
+python app.py --model-name "MODEL_NAME"
 ```
 
 The application supports various arguments for customization:

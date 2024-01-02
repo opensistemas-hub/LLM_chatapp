@@ -69,7 +69,7 @@ def parse_opt():
     parser = argparse.ArgumentParser(description='Run a Gradio chat interface with hugging face chat models.')
     parser.add_argument('--model-name', type=str, default='openchat/openchat_3.5', help='Model name of hugging face or local path')
     parser.add_argument('--memory-limit', type=int, default=4, help='Limit on how many past interactions to remember')
-    parser.add_argument('--max-new-tokens', type=int, default=2048, help='Maximum new tokens to generate in the response')
+    parser.add_argument('--max-new-tokens', type=int, default=4096, help='Maximum new tokens to generate in the response')
     parser.add_argument('--temperature', type=float, default=0.7, help='Temperature for generation')
     parser.add_argument('--top-k', type=int, default=50, help='Top K sampling for generation')
     parser.add_argument('--top-p', type=float, default=0.95, help='Top P sampling for generation')

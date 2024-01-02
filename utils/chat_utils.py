@@ -27,6 +27,12 @@ def format_message(tokenizer, message: str, history: list, memory_limit: int = 4
         {"role": "system", "content": "You are a helpful bot created by the AI team of Open Sistemas, an innovative company in the are of AI & Data. Your answers are clear and concise and you must respond in the same language the user asked you."}
     ]
     
+    # Mistral doesn't support system role
+    # formatted_message = [
+    #     {"role": "user", "content": "Who did create you?"},
+    #     {"role": "assistant", "content": "I was created by the AI team of Open Sistemas, an innovative company in the are of AI & Data."}
+    # ]
+    
     # always keep len(history) <= memory_limit
     if len(history) > memory_limit:
         history = history[-memory_limit:]
