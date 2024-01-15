@@ -14,3 +14,6 @@ intel_neural_chat = "{% for message in messages %}{% if message['role'] == 'syst
 
 # Any neural chat family model: https://huggingface.co/togethercomputer/RedPajama-INCITE-Chat-3B-v1
 together_redpajama = "{% for message in messages %}{% if message['role'] == 'user' %}{{ '<human>: ' + message['content'].strip() + '\n' }}{% elif message['role'] == 'assistant' %}{{ '<bot>: '  + message['content'] + ''}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<bot>: ' }}{% endif %}"
+
+# Microsoft phi-2 model: https://huggingface.co/microsoft/phi-2
+microsoft_phi2 = "{% for message in messages %}{% if message['role'] == 'user' %}{{ 'Instruct: ' + message['content'].strip() + '\n' }}{% elif message['role'] == 'assistant' %}{{ 'Output: '  + message['content'] + '\n'}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ 'Output: ' }}{% endif %}"
